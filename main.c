@@ -8,6 +8,8 @@ int main()
 {
     printf("Hello World\n\n");
 
+    printf("25^.5 = %f\n\n", pow(25, .5));
+
     printf(" 5!  = %llu\n", fact(5));
     printf(" 9!  = %llu\n", fact(9));
     printf("50!  = %llu\n", fact(50));
